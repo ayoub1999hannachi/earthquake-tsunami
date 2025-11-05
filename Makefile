@@ -1,8 +1,8 @@
 .PHONY: env install test lint run-notebook
 
 env:
-	python -m venv .venv
-	. .venv/bin/activate; pip install -r requirements.txt
+	python -m venv .venv ;
+	 .\.venv\Scripts\Activate.ps1   ; 
 
 install:
 	pip install -r requirements.txt
