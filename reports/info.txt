@@ -1,0 +1,20 @@
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 782 entries, 0 to 781
+Data columns (total 13 columns):
+ #   Column     Non-Null Count  Dtype  
+---  ------     --------------  -----  
+ 0   magnitude  782 non-null    float64
+ 1   cdi        782 non-null    int64  
+ 2   mmi        782 non-null    int64  
+ 3   sig        782 non-null    int64  
+ 4   nst        782 non-null    int64  
+ 5   dmin       782 non-null    float64
+ 6   gap        782 non-null    float64
+ 7   depth      782 non-null    float64
+ 8   latitude   782 non-null    float64
+ 9   longitude  782 non-null    float64
+ 10  Year       782 non-null    int64  
+ 11  Month      782 non-null    int64  
+ 12  tsunami    782 non-null    int64  
+dtypes: float64(6), int64(7)
+memory usage: 79.6 KB

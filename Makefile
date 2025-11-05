@@ -1,17 +1,21 @@
-.PHONY: env install test lint run-notebook
 
-env:
-	python -m venv .venv ;
-	 .\.venv\Scripts\Activate.ps1   ; 
+.PHONY: setup data eda train test clean
 
-install:
+setup:
+	python -m pip install --upgrade pip
 	pip install -r requirements.txt
+
+data:
+	python -m src.generate_data
+
+eda:
+	python -m src.run_eda
+
+train:
+	python -m src.train_model
 
 test:
 	pytest -q
 
-lint:
-	black --check src tests
-
-run-notebook:
-	jupyter notebook notebooks/earthquake-tsunami.ipynb
+clean:
+	rm -rf models/* reports/*
