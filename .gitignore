@@ -1,19 +1,54 @@
+# ======================
+# Python / ML Project
+# ======================
+
 # Virtual environment
 .venv/
+env/
+venv/
 
-# Cache and temp files
+# Byte-compiled / cache files
 __pycache__/
-*.pyc
-*.pyo
-*.pyd
+*.py[cod]
+*$py.class
+
+# Logs and temp files
 *.log
+*.tmp
+*.out
+*.bak
 
-# Data and model artifacts
+# Jupyter / IPython
+.ipynb_checkpoints/
+*.ipynb_save
+*.ipynb_convert
+
+# ======================
+# Data files
+# ======================
+# Keep only small sample data if needed
 data/raw/*.csv
-models/*.pkl
-reports/*.png
-reports/*.csv
+data/processed/*.csv
+data/interim/*.csv
+data/external/*.csv
+data/*.zip
 
-# IDE settings
-.vscode/
-.idea/
+# ======================
+# Models
+# ======================
+models/*.pkl
+models/*.joblib
+models/*.sav
+models/*.h5
+models/*.onnx
+models/*.pth
+models/*.pt
+
+# ======================
+# Reports and generated plots
+# ======================
+reports/*.png
+reports/*.jpg
+reports/*.jpeg
+reports/*.csv
+repo
