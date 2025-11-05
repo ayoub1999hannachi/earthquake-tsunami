@@ -1,15 +1,4 @@
-Perfect ✅ — let’s generate a **professional, detailed README.md** for your GitHub project
-(**earthquake-tsunami-project**) that includes:
-
-* 🔹 Project description
-* 🎯 Objectives
-* 📊 Dataset source
-* ⚙️ Workflow
-* 🧠 Folder structure
-* 💻 Usage instructions (Makefile commands)
-* 📈 Model results & insights
-
-Here’s your **complete README.md** (ready to copy or commit):
+*
 
 ---
 
