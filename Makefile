@@ -6,6 +6,8 @@ setup:
 	pip install -r requirements.txt
 
 
+data:
+	python -m src.generate_data
 
 eda:
 	python -m src.run_eda

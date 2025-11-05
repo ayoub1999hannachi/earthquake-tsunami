@@ -27,11 +27,7 @@ __pycache__/
 # Data files
 # ======================
 # Keep only small sample data if needed
-data/raw/*.csv
-data/processed/*.csv
-data/interim/*.csv
-data/external/*.csv
-data/*.zip
+
 
 # ======================
 # Models
