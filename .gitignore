@@ -1,6 +1,19 @@
+# Virtual environment
 .venv/
+
+# Cache and temp files
 __pycache__/
-.ipynb_checkpoints/
-data/
 *.pyc
-.pytest_cache/
+*.pyo
+*.pyd
+*.log
+
+# Data and model artifacts
+data/raw/*.csv
+models/*.pkl
+reports/*.png
+reports/*.csv
+
+# IDE settings
+.vscode/
+.idea/
