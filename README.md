@@ -233,8 +233,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 📞 Support
 
 - **Issues**: [GitHub Issues](https://github.com/ayoub1999hannachi/earthquake-tsunami/issues)
-- **Email**: ayoub.hannachi@research.tn
-- **LinkedIn**: [Ayoub Hannachi](https://linkedin.com/in/ayoubhannachi)
+- **Email**: ahannachi193@gmail.com
+- **LinkedIn**: [Ayoub Hannachi](https://www.linkedin.com/in/ayoub-hannachi-0727931b0/)
 
 ## 🗺️ Roadmap
 
