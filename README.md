@@ -213,7 +213,7 @@ If you use this work in research, please cite:
 @software{hannachi2024tsunami,
   title={Earthquake-Tsunami Prediction System},
   author={Hannachi, Ayoub},
-  year={2024},
+  year={2025},
   url={https://github.com/ayoub1999hannachi/earthquake-tsunami},
   version={2.1.0}
 }
